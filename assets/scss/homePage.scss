@@ -19,3 +19,8 @@ li {
 .box {
     margin-bottom: 5rem;
 }
+
+.image:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px 5px #5d091a98;
+}
