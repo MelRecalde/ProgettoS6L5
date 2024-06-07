@@ -9,8 +9,8 @@ main {
 
 svg {
     position: absolute;
-    top: 70px;
-    right: 80px;
+    top: 125px;
+    left: 30px;
     padding: 2px;
     background-color: black;
     border: 1px solid white;
@@ -38,9 +38,18 @@ svg {
     .box3 {
         & div {
             & span {
-                font-size: x-small;
+                font-size: xx-small;
             }
         }
     }
 }
 
+
+.btn {
+    color: whitesmoke;
+    &:hover {
+        background-color: whitesmoke;
+        color: #141414;
+        border: 1px solid #141414;
+    }
+}
